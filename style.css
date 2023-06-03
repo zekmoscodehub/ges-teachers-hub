@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+html{
+    font-size: 80%;
+    margin: 5px 5px;
+    text-align: center;
+}
+body{
+   text-align: center;
+}
+.header-top{
+    height: 45px;
+    color: aliceblue;
+    text-align: center;
+    cursor: pointer;
+    background:skyblue;
+    padding-bottom: 10px;
+}
+.title{
+      font-weight: 600;
+}
+.display-5{
+    Color:#fff;
+}
+.header-bottom{
+    text-align: center;
+    width: auto;
+    
+}
+a.menu{
+    color:#fff;
+    width: 30px;
+    padding:.3rem 2rem;
+    cursor:pointer;
+    
+
+}
+.menu{
+    border:1px solid rgb(229, 229, 241);
+    border-radius: 8px;
+    font-size: 16px;
+    text-decoration: none;
+    width: 6rem;
+   
+    background-color:skyblue;
+
+}
+
+.menu-list{
+    font-size: 18px;
+    padding-top: 5px;
+
+   
+}
+.menu-list .btn{
+    margin-right:30px;
+   
+}
+.about{
+    font-size: 60px;
+}
+
+.row{
+    margin-top: 6px;
+    
+    padding-bottom: 10px;
+    background-color: #d8d5d5;
+    cursor: pointer;
+    background:#fff;
+}
+.card:hover{
+    transform: scale(1);
+}
+span{
+    color:coral;
+}
+.card.main-pic3{
+    width:250px;
+    
+}
+.main-pic3{
+    margin-top: 20px;
+    border-radius: 4rem;
+    margin-bottom: 20px;
+}
+.pic4{
+    margin-top: none;
+    margin-left: 30px;
+
+}
+
+.card-paragrap{
+    margin: 0 10px;
+    line-height: 2.2rem;
+    text-align: left;
+}
+.para{
+    text-align: left;
+    padding-top: 30px;
+    flex-wrap: nowrap;
+}
+
+.read-more{
+    margin-top: 20px;
+    font-style: italic;
+    text-decoration: none;
+}
+.main-home{
+    text-align: left;
+}
+.main-home-pic{
+    width: 350px;
+}
+body{
+    background-color:skyblue;
+}
+
+
+@media screen and (max-width:600px){
+    p.para{
+        display: none;
+    }
+    .main-home-pic{
+        float: left;
+    }
+    
+}
